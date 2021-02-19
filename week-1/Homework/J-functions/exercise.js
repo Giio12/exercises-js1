@@ -1,5 +1,5 @@
 function double(number) {
-  return number *3 ;
+  return number *2 ;
 }
 
 var result = double(60);

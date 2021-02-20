@@ -1,5 +1,7 @@
-// Declare your function here
+function mensaje(nombre,edad){
+    return  "Mi nombre es "+ nombre + " y tengo " + edad+ " años";
 
-const greeting = createLongGreeting("Daniel", 30);
+}
 
-console.log(greeting);
+console.log(mensaje("Daniel", 30));
+console.log(mensaje("Giomar", 29));
